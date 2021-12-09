@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="MTItMDUtMjAyMSBhdCAxOjQxIFBNIC0gRG9scGhpbiBEZWZlbmRlcnM="
+    />
+    <title>Dolphin Defenders</title>
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"
+      integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Google Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Icons CDN -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css"
+      integrity="sha512-Q0DfJ+I5cbH4Wm20NlPZ/fENHil7k3ZgzI9b71LfQAB1IlM8Gt7aO7eOPX2QzYT+4fZaF6u1kSfZAHczl4r/9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap CDN CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS CSS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- AOS JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Fancyapp CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+
+    <!-- Fancyapp JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <!-- offcanvas left -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          Dolphin Defenders
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="text-center">
+          <div class="spokesperson">
+            <img
+              src="images/general/round-offcanvas.jpg"
+              class="cropped-offcanvas"
+              alt="spokesperson"
+            />
+          </div>
+          <br />
+          <blockquote>
+            Thanks Joe and Phil for working hard on the beach last time.
+            <cite>Jason Mann</cite>
+          </blockquote>
+          <a
+            class="btn btn-outline-primary btn-offcanvas-left"
+            href="https://twitter.com/"
+            target="_blank"
+            >Twitter</a
+          >
+
+          <a
+            class="btn btn-outline-primary btn-offcanvas-left"
+            href="https://www.instagram.com/"
+            target="_blank"
+            >Instagram</a
+          >
+
+          <a
+            class="btn btn-outline-primary btn-offcanvas-left"
+            href="https://www.facebook.com/"
+            target="_blank"
+            >Facebook</a
+          >
+
+          <a
+            class="btn btn-outline-primary btn-offcanvas-left"
+            href="https://www.youtube.com/"
+            target="_blank"
+            >Youtube</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- offcanvas bottom -->
+    <div
+      class="offcanvas offcanvas-bottom"
+      tabindex="-1"
+      id="offcanvasBottom"
+      aria-labelledby="offcanvasBottomLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+          Offcanvas bottom
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body small">
+        <div class="alert alert-danger text-center alert-offcanvas-bottom">
+          <p>
+            <strong>Existing Participants</strong> We will be closed December 24
+            and December 25, 2021 in observance of the Christmas Holiday!
+            Services will resume December 26 at regular hours.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Logo section -->
+    <div class="container-fluid top-logo text-center">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <span class="material-icons-outlined material-icon md-60">
+            <a
+              class="sidebar-icon"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasBottom"
+              role="button"
+              aria-controls="offcanvasBottom"
+              >info</a
+            >
+          </span>
+          <span class="material-icons-outlined material-icon md-60">
+            <a class="sidebar-icon" href="gallery.html">
+              <i class="far fa-images"></i>
+            </a>
+          </span>
+          <span class="material-icons-outlined material-icon md-60">
+            <a
+              class="sidebar-icon"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+              >menu</a
+            >
+          </span>
+        </div>
+
+        <div class="col-12 col-md-6">
+          Dolphin Defenders
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#staff">Staff</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="donate.html">Donate</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Volunteer Form</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Volunteer Schedule</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success btn-search" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/carousel/1.jpg"
+            class="d-block w-100"
+            alt="Be a Part of the Change"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Be a Part of the Change</h5>
+            <p>Volunteer now and contribute to the ocean environment.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/carousel/2.jpg"
+            class="d-block w-100"
+            alt="A Great Team"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>A Great Team</h5>
+            <p>Meet some wonderful people passionate about our cause.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/carousel/3.jpg"
+            class="d-block w-100"
+            alt="Many ways to help"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Many ways to help</h5>
+            <p>
+              We offer multiple jobs that you can join to help protect our
+              oceans and sea-friends.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="ratio ratio-16x9 carousel-alternate">
+      <iframe
+        src="https://www.youtube.com/embed/G7L4YzGAvMA?rel=0"
+        title="YouTube video"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <!-- Font Awesome -->
+    <div class="container-fluid fa-row text-center">
+      <div class="row">
+        <div class="col col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <a href="#staff">
+            <i class="fas fa-users fa-row-icon"></i>
+          </a>
+          <br />Meet Our Team
+        </div>
+
+        <div class="col col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <a href="donate.html">
+            <i class="fas fa-donate fa-row-icon"></i>
+          </a>
+          <br />Donate
+        </div>
+
+        <div class="col col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <a href="form.html">
+            <i class="fas fa-hands-helping fa-row-icon"></i>
+          </a>
+          <br />Volunteer Now!
+        </div>
+
+        <div class="col col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+          <a href="schedule.html">
+            <i class="fas fa-calendar-alt fa-row-icon"></i>
+          </a>
+          <br />Schedule
+        </div>
+      </div>
+    </div>
+
+    <!-- dummy paragraph about us -->
+    <div class="container about-div" id="about">
+      <div class="row">
+        <div class="col">
+          <img
+            src="images/general/team.jpg"
+            class="img-responsive about-img"
+            alt="Alternate Placeholder"
+          />
+          <h2>About Us</h2>
+          <p>
+            Founded in 2010, our purpose has always been to protect the ocean
+            environment and sea creatures such as dolphins. We love all kinds of
+            animals in the sea and want them to be able to live without being
+            subjected to the destruction and pollution of their habitats.
+          </p>
+          <p>
+            We have been working hard to clean the oceans and beaches of trash
+            and other human wastes. We have also saved a great number of sea
+            animals from injuries minor and major.
+          </p>
+          <p>
+            If you would like to help, you can scroll down to read about the
+            volunteer opportunities or click the button below to donate 5
+            dollars or more to our cause.
+          </p>
+
+          <div>
+            <a href="form.html" class="btn btn-outline-primary btn-about"
+              >Donate Now</a
+            >
+          </div>
+        </div>
+        <!-- col -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+    <!-- dummy paragraph volunteer end -->
+
+    <!-- gallery -->
+    <div class="container text-center">
+      <div class="row">
+        <div
+          class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="images/fancybox/originals/1.jpg">
+            <img
+              data-aos="flip-down"
+              class="img-responsive img-fancybox"
+              src="images/fancybox/thumbs/1.jpg"
+              alt="Alternate Placeholder"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="images/fancybox/originals/2.jpg">
+            <img
+              data-aos="flip-down"
+              class="img-responsive img-fancybox"
+              src="images/fancybox/thumbs/2.jpg"
+              alt="Alternate Placeholder"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="images/fancybox/originals/3.jpg">
+            <img
+              data-aos="flip-down"
+              class="img-responsive img-fancybox"
+              src="images/fancybox/thumbs/3.jpg"
+              alt="Alternate Placeholder"
+            />
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 gallery-box"
+        >
+          <a data-fancybox href="images/fancybox/originals/4.jpg">
+            <img
+              data-aos="flip-down"
+              class="img-responsive img-fancybox"
+              src="images/fancybox/thumbs/4.jpg"
+              alt="Alternate Placeholder"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="row gallery-button">
+        <div class="col-12 text-center">
+          <a class="btn btn-outline-primary btn-gallery" href="gallery.html"
+            >View Gallery</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- end gallery -->
+
+    <!-- dummy paragraph volunteer -->
+    <div class="container volunteer-div" id="vol_opp">
+      <div class="row">
+        <div class="col">
+          <img
+            src="images/general/volunteer.jpg"
+            class="img-responsive volunteer-img"
+            alt="Alternate Placeholder"
+          />
+          <h2>Volunteer Opportunities</h2>
+          <p>
+            If you would like to help our cause, you very much can! We offer
+            volunteer work ranging from cleaning beaches to cleaning oceans. If
+            you want to help clean the ocean, then you can either bring your own
+            scuba-diving gear or borrow one of our own.
+          </p>
+          <p>
+            Are you interested in working in the vet field? You can even
+            volunteer to help treat sea animals in need. This will benifit your
+            resume greatly.
+          </p>
+          <p>
+            If you don't want to volunteer but still would like to help, then
+            you can alternatively donate money to our cause.
+          </p>
+
+          <div>
+            <a href="form.html" class="btn btn-outline-primary btn-volunteer"
+              >Volunteer Now</a
+            >
+          </div>
+        </div>
+        <!-- col -->
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+    <!-- dummy paragraph volunteer end -->
+
+    <!-- staff -->
+    <div class="container staff text-center" id="staff">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            data-aos="fade-right"
+            src="images/staff/thumbs/1.jpg"
+            class="cropped"
+            alt="Alternate Placeholder"
+          />
+          <br />
+          <blockquote>
+            I love cleaning beaches because it feels like I'm making a
+            difference in the world
+
+            <cite>Tim Brown</cite>
+          </blockquote>
+        </div>
+
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            data-aos="fade-right"
+            src="images/staff/thumbs/2.jpg"
+            class="cropped"
+            alt="Alternate Placeholder"
+          />
+          <br />
+          <blockquote>
+            Picking up trash while scuba diving is a great way to have fun while
+            making a difference!
+
+            <cite>Mark White</cite>
+          </blockquote>
+        </div>
+
+        <div
+          class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <img
+            data-aos="fade-right"
+            src="images/staff/thumbs/3.jpg"
+            class="cropped"
+            alt="Alternate Placeholder"
+          />
+          <br />
+          <blockquote>
+            I'm so proud of our veterinarians for their hard work saving these
+            sea animals.
+
+            <cite>Grace Dee</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid footer-row text-center" id="footerInfo">
+      <div class="row">
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3"
+        >
+          <a href="https://en.wikipedia.org/wiki/Privacy_policy">
+            Privacy Policy
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3"
+        >
+          <a href="schedule.html">
+            Volunteer Schedule
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3"
+        >
+          <a href="mailto:markus.sjolund76@buc.blinn.edu">
+            markus.sjolund76@buc.blinn.edu
+          </a>
+        </div>
+        <div
+          class="col-12 col-xs-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3"
+        >
+          <a href="form.html">
+            Volunteer Opportunities
+          </a>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- social media icons -->
+      <div class="row text-center">
+        <div class="col-12">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fab fa-facebook fa-social-media"></i>
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <i class="fab fa-instagram fa-social-media"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fab fa-twitter fa-social-media"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
